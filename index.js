@@ -26,8 +26,8 @@ const figlet = require("figlet");
 const packname = process.env.STICKER_PACKNAME;
 const _ = require("lodash");
 const PhoneNumber = require("awesome-phonenumber");
-const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/dreadexif'); 
- const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/dreadfunc');
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/ravenexif'); 
+ const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/ravenfunc');
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 
     const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
