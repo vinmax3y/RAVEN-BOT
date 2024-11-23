@@ -993,7 +993,7 @@ const { youtubedl, youtubedlv2 } = require("api-dylux");
 
   try {
     if (!text) {
-      message.reply("What video do you want to download?");
+      m.reply("What video do you want to download?");
       return;
     }
 
@@ -1014,7 +1014,7 @@ const { youtubedl, youtubedlv2 } = require("api-dylux");
       caption: videoTitle
     };
 
-    await client.sendMessage(message.chat, videoMessage, { quoted: message });
+    await client.sendMessage(m.chat, videoMessage, { quoted: m });
 
     const documentMessage = {
       document: { url: videoFile },
@@ -1023,9 +1023,9 @@ const { youtubedl, youtubedlv2 } = require("api-dylux");
       caption: videoTitle
     };
 
-    await client.sendMessage(message.chat, documentMessage, { quoted: message });
+    await client.sendMessage(m.chat, documentMessage, { quoted: m });
   } catch (error) {
-    message.reply("Error\n" + error);
+    m.reply("Error\n" + error);
   }
 }
 	break;
