@@ -116,10 +116,10 @@ const runtime = function (seconds) {
  var h = Math.floor((seconds % (3600 * 24)) / 3600); 
  var m = Math.floor((seconds % 3600) / 60); 
  var s = Math.floor(seconds % 60); 
- var dDisplay = d > 0 ? d + (d == 1 ? " 𝐝𝐚𝐲, " : " 𝐃𝐚𝐲, ") : ""; 
- var hDisplay = h > 0 ? h + (h == 1 ? " 𝐡𝐨𝐮𝐫, " : " 𝐇𝐨𝐮𝐫𝐬, ") : ""; 
- var mDisplay = m > 0 ? m + (m == 1 ? " 𝐦𝐢𝐧𝐮𝐭𝐞, " : " 𝐌𝐢𝐧𝐮𝐭𝐞𝐬, ") : ""; 
- var sDisplay = s > 0 ? s + (s == 1 ? " 𝐬𝐞𝐜𝐨𝐧𝐝" : " 𝐒𝐞𝐜𝐨𝐧𝐝𝐬") : ""; 
+ var dDisplay = d > 0 ? d + (d == 1 ? " 𝗱𝗮𝘆, " : " 𝗗𝗮𝘆𝘀, ") : ""; 
+ var hDisplay = h > 0 ? h + (h == 1 ? " 𝗵𝗼𝘂𝗿, " : " 𝗛𝗼𝘂𝗿𝘀, ") : ""; 
+ var mDisplay = m > 0 ? m + (m == 1 ? " 𝗺𝗶𝗻𝘂𝘁𝗲, " : " 𝗠𝗶𝗻𝘂𝘁𝗲𝘀, ") : ""; 
+ var sDisplay = s > 0 ? s + (s == 1 ? " 𝘀𝗲𝗰𝗼𝗻𝗱" : " 𝗦𝗲𝗰𝗼𝗻𝗱𝘀") : ""; 
  return dDisplay + hDisplay + mDisplay + sDisplay; 
  } 
   
@@ -975,6 +975,59 @@ m.reply("An error occured...")
 }
 
       }
+	break;
+	      case "playy": {
+		      const yts = require("yt-search");
+const { youtubedl, youtubedlv2 } = require("api-dylux");
+
+  async function searchVideos(query, options = {}) {
+    const searchOptions = {
+      query,
+      hl: 'es',
+      gl: 'ES',
+      ...options
+    };
+    const searchResults = await yts.search(searchOptions);
+    return searchResults.videos;
+  }
+
+  try {
+    if (!text) {
+      message.reply("What video do you want to download?");
+      return;
+    }
+
+    const videos = await searchVideos(text);
+    const videoUrl = videos[0].url;
+
+    const videoData = await youtubedl(videoUrl).catch(async () => {
+      return await youtubedlv2(videoUrl);
+    });
+
+    const videoFile = await videoData.video["360p"].download();
+    const videoTitle = await videoData.title;
+
+    const videoMessage = {
+      url: videoFile,
+      fileName: `${videoTitle}.mp4`,
+      mimetype: "video/mp4",
+      caption: videoTitle
+    };
+
+    await client.sendMessage(message.chat, videoMessage, { quoted: message });
+
+    const documentMessage = {
+      document: { url: videoFile },
+      fileName: `${videoTitle}.mp4`,
+      mimetype: "video/mp4",
+      caption: videoTitle
+    };
+
+    await client.sendMessage(message.chat, documentMessage, { quoted: message });
+  } catch (error) {
+    message.reply("Error\n" + error);
+  }
+}
 	break;
 		     case 'fact': {
 	try {
