@@ -1,6 +1,6 @@
 # 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THIS  IS+🦄RAVEN-MD🦄;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+NICK;PUBLIC+RELEASED; ...;TEAM RAVEN-𝙼𝙳." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THIS  IS+RAVEN-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+NICK;PUBLIC+RELEASED; ...;TEAM RAVEN-𝙼𝙳." alt="Typing SVG" /></a>
   </p>
   
 <p align="center">
@@ -10,13 +10,13 @@
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=RAVEN+WHATSAPP+BOT" alt="">
 </p>
 <p align="center">
-<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-𝐍𝐢𝐜𝐤_𝐇𝐮𝐧𝐭𝐞𝐫-blue.svg?style=for-the-badge&logo=github"></a>
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-𝗡𝗶𝗰𝗸_𝗛𝘂𝗻𝘁𝗲𝗿-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/HunterNick2?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/HunterNick2?label=Followers&style=social"></a>
-<a href="https://github.com/HunterNick2/RAVEN-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/HunterNick2/RAVEN-MD?&style=social"></a>
-<a href="https://github.com/HunterNick2/RAVEN-MD/network/members"><img title="Fork" src="https://img.shields.io/github/forks/HunterNick2/RAVEN-MD?style=social"></a>
-<a href="https://github.com/HunterNick2/RAVEN-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/HunterNick2/RAVEN-MD?label=Watching&style=social"></a>
+<a href="https://github.com/HunterNick2/RAVEN-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/HunterNick2/RAVEN-BOT?&style=social"></a>
+<a href="https://github.com/HunterNick2/RAVEN-BOT/network/members"><img title="Fork" src="https://img.shields.io/github/forks/HunterNick2/RAVEN-BOT?style=social"></a>
+<a href="https://github.com/HunterNick2/RAVEN-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/HunterNick2/RAVEN-BOT?label=Watching&style=social"></a>
 </p>
  
 
@@ -51,7 +51,7 @@ Linking/Pairing:
     
 <h2 align="center">   
 
-- Fork this repo by tapping  [here](https://github.com/HunterNick2/RAVEN-MD/fork)
+- Fork this repo by tapping  [here](https://github.com/HunterNick2/RAVEN-BOT/fork)
 
 
 - Upload the creds.json that you received to the session folder.
@@ -74,7 +74,7 @@ Modifying the bot structure is at your own risk. We won't offer technical suppor
 
 ## License
 
-[MIT License](https://github.com/Fortunatusmokaya/DREADED-GPT-AI/blob/main/LICENSE)
+[MIT License](https://github.com/HunterNick2/RAVEN-BOT/blob/main/LICENSE)
 
 Copyright (c) 2024 RAVEN-MD
 
