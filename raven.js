@@ -2808,10 +2808,12 @@ async function handleGPTMessage(text, m) {
           try {
             
             if (!text) return reply(`This will generate an AI-BASED image. Note that image generated might not be realistic.`);
-            const configuration = new Configuration("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");
-		  
-            const openai = new OpenAIApi(configuration);
-            const response = await openai.createImage({
+
+		  const { default: Gemini } = await import('gemini-ai');
+
+        const gemini = new Gemini("AIzaSyDnJpJjWR_Th7u8KyuXC7fILSM9ORRouX8");
+
+            const response = await gemini.createImage({
               prompt: text,
               n: 1,
               size: "512x512",
