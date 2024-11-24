@@ -2632,7 +2632,7 @@ case "movie":
        
         const { default: Gemini } = await import('gemini-ai');
 
-        const gemini = new Gemini("AIzaSyCcZqDMBa8FcAdBxqE1o6YYvzlygmpBx14");
+        const gemini = new Gemini("AIzaSyDnJpJjWR_Th7u8KyuXC7fILSM9ORRouX8");
         const chat = gemini.createChat();
 
         const res = await chat.ask(text);
