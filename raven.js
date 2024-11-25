@@ -135,6 +135,9 @@ if (wapresence === 'recording' && !m.isGroup) {
 } else if (wapresence === 'typing' && !m.isGroup) { 
             
   client.sendPresenceUpdate('recording', m.chat);
+      }	else if (wapresence === 'online' && !m.isGroup) { 
+            
+  client.sendPresenceUpdate('available', m.chat);
     }
     
 
