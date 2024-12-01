@@ -43,8 +43,7 @@ Or👇
 ## ` Pair On replit`
  <h2 align="center"> <a href="https://replit.com/@dicksonnicky50/Pairing-Raven"><img src="https://repl.it/badge/github/quiec/whatsasena" />
 
-    
-<h2 align="center">   
+      
 
 
 
