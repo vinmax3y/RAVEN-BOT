@@ -49,7 +49,8 @@ Or👇
 
 
     
-<h2 align="center">   
+
+    
 
 - Fork this repo by tapping  [here](https://github.com/HunterNick2/RAVEN-BOT/fork)
 
@@ -59,7 +60,7 @@ Or👇
 - Connect your fork to any suitable cloud host and deploy.
 
 - Add the environmental variables in .env into your hosting site for bot to work.
- 
+ </h2>
      
 
     
