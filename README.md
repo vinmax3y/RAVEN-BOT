@@ -59,7 +59,7 @@ Or👇
 - Connect your fork to any suitable cloud host and deploy.
 
 - Add the environmental variables in .env into your hosting site for bot to work.
-
+  </h2>
  
      
 
@@ -68,8 +68,6 @@ Or👇
 
 
 
-
-Modifying the bot structure is at your own risk. We won't offer technical support in case of errors resulting!
 
 
 ## License
