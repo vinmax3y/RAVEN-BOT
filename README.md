@@ -38,12 +38,11 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 Linking/Pairing:
 ## ` Pair onrender`
-[Here](https://pairing-raven.onrender.com)
+[HERE](https://pairing-raven.onrender.com)
 Or👇
 ## ` Pair On replit`
 <h2 align="left">  <a href="https://replit.com/@dicksonnicky50/Pairing-Raven"><img src="https://repl.it/badge/github/quiec/whatsasena" />
 </a>
-</h2>
 
     
 <h2 align="center">   
