@@ -41,6 +41,8 @@
       "tempmail.lol": "^4.1.0",
      "crypto": "^1.0.1",
       "imgur": "2.3.0",
+      "chatgpt-scraper":"^1.0.1",
+      "g-i-s": "^2.1.7",
      "figlet": "^1.5.2", 
      "fs": "0.0.1-security", 
          "stream": "^0.0.2",
